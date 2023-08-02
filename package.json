@@ -1,0 +1,23 @@
+{
+  "name": "base_contract_uniswap_router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.17.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1"
+  }
+}
